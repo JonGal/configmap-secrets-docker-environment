@@ -9,7 +9,7 @@ steps:
   - set
   - image
   - deployment
-  - hello-world
+  - configmap-secrets-docker-environment
   - web=gcr.io/$PROJECT_ID/configmap-secrets-docker-environment:1.1.$BUILD_ID
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-west1-c'

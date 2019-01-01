@@ -7,3 +7,8 @@ services:
       - /usr/src/site/node_modules
     ports:
       - 8080:8080
+    environment:
+      - USERNAME=db_accessor
+      - PASSWORD=K61&A5Mi@0Xv43V5kl
+      - DATABASE=critical_or_pii
+

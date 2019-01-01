@@ -23,3 +23,11 @@ spec:
           httpGet:
             path: /
             port: 8080
+        env:
+            - name: USERNAME
+              value: db_accessor
+            - name: PASSWORD
+              value: K61&A5Mi@0Xv43V5kl
+            - name: DATABASE
+              value: critical_or_pii
+
